@@ -4,7 +4,7 @@ img {
 
 #s1 {
     background-color: rgba(131, 175, 157, 0.326);
-    padding: 100px;
+    padding: 5%;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
     min-height: 100vh;
@@ -15,17 +15,20 @@ img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
-    gap: 100px;
+    gap: 5%;
     align-items: center;
+    justify-content: center;
+    
 
 }
 
 .bilde {
     width: 400px;
     height: 400px;
+    flex-shrink: 0;
     object-fit: cover;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
@@ -33,11 +36,16 @@ img {
 }
 
 .tekst {
-    
+    flex: 1;
+    min-width: 250px;
+    max-width: 600px;
+    max-height: 400px;
 }
 
 .polaroid {
     width: 250px;
+    flex-shrink: 0;
+    max-width: 100%;
 }
 
 .p1 {
@@ -51,5 +59,21 @@ img {
 }
 
 #s2 {
-    padding: 0 150px 150px;
+    padding: 5%;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+.grid img {
+    border-radius: 20%;
+    border: 5px solid rgb(131, 175, 157);
+    width: 100%;
+    height: auto;
+    
 }
