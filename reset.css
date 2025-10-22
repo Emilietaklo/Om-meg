@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 /* Minimal css reset */
 
 /* Reset box-sizing to border-box for easier layout calculations */
@@ -60,11 +67,6 @@ button {
 
 /* Lik font og header på alle nettsider */
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
-* {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 h1,h2 {
   font-family: "Lobster", sans-serif;
