@@ -1,36 +1,37 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 40px 20px 0 20px;
+    margin: 40px;
 }
 
-.tittel{
+.tittel {
     width: 50%;
     padding-bottom: 50px
 }
 
-.container h1{
-    border-bottom:3px solid ;
+.container h1 {
+    border-bottom: 3px solid;
     padding-bottom: 10px;
 }
 
-.boks{
+.boks {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
+    gap: 15px;
 }
 
-.kolonne{
+.kolonne {
     display: flex;
     flex-direction: column;
-    width: 32%;
+    flex: 1;
+    gap: 15px;
 }
 
-img{
+img {
     width: 100%;
-    padding-bottom: 15px;
     border-radius: 10px;
 }
-
