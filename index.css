@@ -2,7 +2,7 @@
 
 .intro {
     background-color: rgba(131, 175, 157, 0.326);
-    padding: 100px 150px 200px;
+    padding: 7.5% 10% 15%;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
 }
@@ -13,6 +13,8 @@
     display: flex;
     gap: 40px;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .intro-container img {
@@ -25,13 +27,15 @@
 
 .introtekst {
     flex: 1;
+    margin: 5% 0;
 }
 
 .midtdel {
-    padding: 0 150px 150px;
+    padding: 0 10% 10%;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    gap: 5%;
     
 }
 
@@ -44,6 +48,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    
 }
 
 .midtdel a:hover {
@@ -52,7 +57,7 @@
 }
 
 .familie {
-    margin: -70px 0;
+    margin: -7% 0;
     background-image: url(bilder/familie/familie.jpg);
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
@@ -60,7 +65,7 @@
 }
 
 .venner {
-    margin: -200px 0;
+    margin: -18% 0;
     background-image: url(bilder/venner/allebunad.jpg);
     border-top-right-radius: 30%;
     border-bottom-left-radius: 30%;
@@ -76,7 +81,7 @@
     align-items: center;
     justify-content: center;
     border-radius: inherit;
-    padding: 20px;
+    
 }
 
 .sluttdel {

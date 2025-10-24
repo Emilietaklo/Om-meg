@@ -21,6 +21,7 @@ img {
     gap: 5%;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     
 
 }
@@ -40,6 +41,7 @@ img {
     min-width: 250px;
     max-width: 600px;
     max-height: 400px;
+    margin: 5%;
 }
 
 .polaroid {
