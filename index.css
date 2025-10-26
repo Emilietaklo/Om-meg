@@ -28,6 +28,7 @@
 .introtekst {
     flex: 1;
     margin: 5% 0;
+    min-width: 400px;
 }
 
 .midtdel {
