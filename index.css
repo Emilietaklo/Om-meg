@@ -48,7 +48,6 @@
     display: block;
     background-size: cover;
     background-position: center;
-    position: relative;
     
 }
 
@@ -108,7 +107,6 @@
 .karusell a {
     flex: 0 0 70%;
     height: 500px;
-    position: relative;
     border-radius: 20px;
     scroll-snap-align: center;
     transition: transform 0.3s ease;

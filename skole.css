@@ -118,7 +118,6 @@ table {
     width: 90%;
     max-width: 1000px;
     border-collapse: collapse;
-    empty-cells: hide;
     border: 1px solid black;
 
 }
