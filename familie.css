@@ -1,0 +1,57 @@
+
+
+section{
+    height: 75vh;
+    text-align: center;
+    margin: 5%;
+}
+
+.kjerne,
+.pappa{
+    background-color: rgba(131, 175, 157, 0.326);
+    color: rgba(51, 133, 118, 0.8);
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+.mamma{
+    background-color: rgba(51, 133, 118, 0.8);
+    color:rgb(226, 236, 232);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+h1{
+    margin: 3% 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    
+
+}
+
+.collage {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    align-items: center;
+    border-radius: 20%;
+    overflow: hidden;
+
+}
+
+.stor {
+    grid-column-start: 2;
+    grid-row: 1/3;
+}
+
+.tekst{
+    flex: 1;
+    padding: 3%;
+}
+
